@@ -1,0 +1,68 @@
+/*Palette #e63946 (red), #f1faee (off white), #457b9d (blue)*/
+
+h1 {
+    display: grid;
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+body {
+    background-color: #f1faee;
+}
+
+.profilePicture {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: auto;
+}
+
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+}
+
+.tabbar {
+    display: grid;
+    position: fixed;
+    grid-template-columns: repeat(2, 45%);
+    background-color: #e63946;
+    gap: 10%;
+    left: 0;
+    top: -2%;
+    right: 0;
+    bottom: 90%;
+    width: 100%;
+}
+
+.tab {
+    display: grid;
+    text-align: center;
+    background-color: #e63946;
+    font-size: 200%;
+    align-items: center;
+}
+
+.footerContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    background-color: #457b9d;
+    gap: 10%;
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+}
+
+.footerItem {
+    display: grid;
+    text-align: center;
+    font-size: 150%;
+    align-items: center;
+}
+

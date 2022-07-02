@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "./css/index.css"
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from "./components/Home"
 import Projects from "./projects/Projects"
@@ -19,7 +20,7 @@ root.render(
               <Route path={"/projects/2"} element={<Hw2 />}/>
               <Route path={"/projects/3"} element={<DNE />}/>
               <Route path={"/projects/4"} element={<DNE />}/>
-              <Route path={"/*"} element={<DNE />}/>
+              <Route path={"/*"} element={<Home />}/>
           </Route>
       </Routes>
   </BrowserRouter>

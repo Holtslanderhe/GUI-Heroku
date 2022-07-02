@@ -21,12 +21,12 @@ function Hw1() {
             .catch(error => {console.log(error)})
     }
 
-    if (myKey == "undefined") {
+    if (process.env.REACT_APP_APOD_API_KEY) {
         return (
             <div>
                 <div>
                     <h1>Homework 1</h1>
-                    <p>No Api key for you!</p>
+                    <button onClick={fetchAPOD}>NASA Astronomy Picture of the Day</button>
                     <div>
                         <img src={url} />
                         <p>{desc}</p>
@@ -40,7 +40,7 @@ function Hw1() {
             <div>
                 <div>
                     <h1>Homework 1</h1>
-                    <button onClick={fetchAPOD}>NASA Astronomy Picture of the Day</button>
+                    <p>No Api key for you!</p>
                     <div>
                         <img src={url} />
                         <p>{desc}</p>

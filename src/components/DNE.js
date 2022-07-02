@@ -1,7 +1,9 @@
 function DNE() {
     return (
         <>
-            <h2>Page Does Not Exist :(</h2>
+            <h2 style={{paddingTop: "200px", paddingBottom: "50%", width: "50%", margin: "auto", textAlign: "center"}}>
+                Page Does Not Exist :(
+            </h2>
         </>
     );
 }

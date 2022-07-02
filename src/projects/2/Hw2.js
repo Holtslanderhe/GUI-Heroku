@@ -1,5 +1,5 @@
 const START = 1;
-const END = 104;
+const END = 80;
 
 /*
 * Styles for the grid and blocks.
@@ -10,6 +10,8 @@ const styles = {
                 gridTemplateColumns: "repeat(8, 10%)",
                 gap: "1%",
                 margin: "auto",
+                paddingBottom: "100px",
+                paddingTop: "100px",
                 width: "50%"
         },
         blocks: {

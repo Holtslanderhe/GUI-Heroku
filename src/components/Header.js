@@ -13,8 +13,8 @@ function Tab() {
     return (
         <>
             <nav>
-                <ul>
-                    <li>
+                <ul className={"tabbar"}>
+                    <li className={"tab"}>
                         <NavLink
                             to={"/"}
                             style={({ isActive }) =>
@@ -24,7 +24,7 @@ function Tab() {
                             Home
                         </NavLink>
                     </li>
-                    <li>
+                    <li className={"tab"}>
                         <NavLink
                             to={"/projects"}
                             style={({ isActive }) =>
